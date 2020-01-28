@@ -37,6 +37,6 @@ v6 = map(v6, 0, 1023, 0, 180);
 s6.write(v6); /*servo A*/
 delay(15);
 //Serial.print("Valor"); // Aqui enviamos um caractere a ser escrito no monitor Serial
-//Serial.println(v1); // Aqui o valor, no momento atual da leitura, da variavel será escrita no monitor Serial
+//Serial.println(v1); // Aqui o valor, no momento atual da leitura, da variavel será escrita no monitor Serial.
 //delay(200);// Como a resposta do arduino é muito rapida, diminuimos a velocidade de reprodução das informções a serem lidas.
 }
